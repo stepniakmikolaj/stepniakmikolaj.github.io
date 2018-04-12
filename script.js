@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'http://vast-depths-83309.herokuapp.com/v1/task/';
+  var apiRoot = 'https://vast-depths-83309.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
